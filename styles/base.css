@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+serif+Text:ital@0;1&display=swap');
+:root{
+    --primary-color:#182825;
+    --secondary-color:#016FB9;
+    --accent1-color:#22AED1;
+    --accent2-color:#6D8EA0;
+}
+header,footer body{
+    margin: 0 auto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color:var(--primary-color);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: steelblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color:white;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #eee;
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #eee;
+    font-size: larger;
+}
+.me{
+    font-family: "DM serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    background-color: #eee;
+}
+
+footer{
+ 
+    text-align: center;
+}
+
+main{
+    grid-column: 2/3;
+}
+.card
