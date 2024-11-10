@@ -68,4 +68,14 @@ footer{
 main{
     grid-column: 2/3;
 }
-.card
+.card{
+    border: 1px solid black;
+    grid-template-columns: auto;
+}
+.card-head{
+ background-color: #016FB9;
+ display: block;
+}
+.card-body{
+background-color: #eee;
+}
