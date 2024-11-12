@@ -109,6 +109,9 @@ display: grid;
 padding: 40px;
 grid-template-rows:auto auto ;
 }
+hr{
+    height: 0.1px;
+}
 .list-container {
     display: grid;
     place-items: center;
