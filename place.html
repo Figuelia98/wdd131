@@ -5,17 +5,53 @@
     <meta name="author" content="Figuelia Ya'Sin">
     <meta name="description" content="Country page by Figuelia Ya'Sin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Place page</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <title>Country</title>
 </head>
 <body>
     <header>
-
+         <h1>Madagascar</h1>
     </header>
     <main>
-
+          <section class="mob-img">
+           <img src="images/mobmada.webp" alt="Maki of Madagascar">
+          </section>
+          <section class="data">
+            <div class="head">
+                <h2>Data</h2>
+            </div>
+            <div class="container">
+                <ul>
+                    <li><span>Area:</span> 587,041 sq km</li>
+                    <li><span>Population:</span> 27,691,018</li>
+                    <li><span>Capitale:</span> Antananarive</li>
+                    <li><span>Languages:</span> Malagasy, French</li>
+                    <li><span>Currency:</span> Malagasy Ariary</li>
+                    <li><span>Time zone:</span> UTC+3</li>
+                    <li><span>Calling code:</span> +261</li>
+                    <li><span>Internet TLD:</span> .mg</li>
+                   </ul>
+            </div>
+          </section>
+          <section class="weather">
+            <div class="head">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" alt="Weather Icon">
+            </div>
+            <div class="container">
+                <ul>
+                    <li><span>Temperature:</span> 30 C</li>
+                    <li><span>Conditions:</span> Sunny</li>
+                    <li><span>Wind:</span> 5km</li>
+                    <li><span>Wind Chill:</span>27 C</li>
+                  </ul>
+            </div>
+          </section>
     </main>
     <footer>
-        
+        <p>Copyright &copy; <span id="currentyear"></span> by Figuelia Ya'Sin , Antsiranana,Madagascar </p>
+        <p id="lastModified"></p>
     </footer>
     
 </body>
