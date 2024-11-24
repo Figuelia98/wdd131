@@ -97,7 +97,7 @@ footer{
 @media screen and (max-width:800px) {
   main{
     display: grid;
-    grid-template-rows: 1f 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   .mob-img{
     display: block;
