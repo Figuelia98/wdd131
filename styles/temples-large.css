@@ -1,0 +1,38 @@
+:root{
+    --primary-color:#ffffff;  
+    --secondary-color:#add9f4;
+    --accent-color1:#476C9B;
+    --accent-color2:#468c98;
+    --accent-color3:#101419;
+  }
+@media screen and (max-width:800px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #menuList{
+        grid-template-columns: 1fr;
+        width: 100%;
+       
+        
+    }
+
+    #menuList li{
+        box-shadow: 0px 0px 1px black;
+        padding: 10px;
+        background-color: var(--secondary-color);
+    }
+    .menu{
+        display: flex;
+    }
+}
+@media screen and (max-width:600px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+}
