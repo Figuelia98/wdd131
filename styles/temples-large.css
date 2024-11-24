@@ -20,6 +20,9 @@
        
         
     }
+    nav a:hover{
+        opacity: 0.5;
+    }
 
     #menuList li{
         box-shadow: 0px 0px 1px black;
