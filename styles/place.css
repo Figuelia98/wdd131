@@ -112,6 +112,11 @@ section{
     width: 100%;
     margin: 0;
     max-height: none;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+h2{
+    padding-top: 20px;
 }
 ul{
     width: 80%;
