@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Figuelia Ya'Sin">
+    <meta name="description" content="Fom assignment week 5 by Figuelia">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <title>Form Review</title>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <section>
+            <form action="review.html" method="get">
+            
+                <div class="field">
+                   <label for="Product">
+                     Product Name
+                     <select name="product" id="product" required>
+                        <option value="" disabled selected>Choose a Product</option>
+                     </select>
+                   </label>
+                </div>
+                <div class="field">
+                    <fieldset id="fieldset1">
+                    <legend>Overall Rating</legend>
+                    <label>
+                       &star;
+                      <input type="radio" name="rate" value="1" id="one">
+                    </label>
+                    <label>
+                        &star;&star;
+                       <input type="radio" name="rate" value="2" id="two">
+                     </label>
+                     <label>
+                        &star;&star;&star;
+                       <input type="radio" name="rate" value="3" id="three">
+                     </label>
+                     <label>
+                        &star;&star;&star;&star;
+                       <input type="radio" name="rate" value="4" id="four">
+                     </label>
+                     <label>
+                        &star;&star;&star;&star;&star;
+                       <input type="radio" name="rate" value="5" id="five">
+                     </label>
+                </fieldset>
+                 </div>
+                 <div class="field">
+                    <label for="date">
+                      Date of installation
+                      <input type="date" name="date" id="date" required>
+                    </label>
+                 </div>
+                 <div class="field">
+                    <fieldset id="fieldset2">
+                        <legend>Which features did you find useful in the product?(Check all that apply)</legend>
+                        <label for="durability">
+                            <input type="checkbox" name="durability" id="durability" value="Durability">
+                             Durability
+                        </label>
+                        <label for="easeuse">
+                            <input type="checkbox" name="easeuse" id="easeuse" value="Ease of Use">
+                             Ease of Use
+                        </label>
+                        <label for="performance">
+                            <input type="checkbox" name="performance" id="performance" value="Performance">
+                            Performance
+                        </label>
+                        <label for="durability">
+                            <input type="checkbox" name="design" id="design" value="Design">
+                            Design
+                        </label>
+                    </fieldset>
+                 </div>
+                 <div class="field">
+                    <label>
+                        Written Review <span>(Optional)</span>
+                        <textarea name="review" id="review"></textarea>
+                    </label>
+                 </div>
+                 <div class="field">
+                    <label for="name">
+                        Your Name <span>(Optional)</span>
+                        <input type="text" name="name" id="name">
+                       
+                    </label>
+                 </div>
+                  <div class="field">
+                        <input type="submit" name="post" id="post" value="Post Review">
+                  </div>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; <span id="currentyear"></span> by Figuelia Ya'Sin , Antsiranana,Madagascar </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
