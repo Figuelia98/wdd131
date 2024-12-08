@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Figuelia Ya'Sin">
+    <meta name="description" content="Picture temples Album by Figuelia Ya'Sin">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="scripts/filtered-temples.js"></script>
+    <title>Temple Album</title>
+  </head>
+  <body>
+    <header>
+      <h1>Temple Album</h1>
+      <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+        <svg width="40" height="40" viewBox="0 0 100 100">
+          <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+          <path class="line line2" d="M 20,50 H 80" />
+          <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+        </svg>
+      </button>
+      <nav>
+        <ul id="menuList">
+          <li><a href="#" id="Home">Home</a></li>
+          <li><a href="#" id="Old">Old</a></li>
+          <li><a href="#" id="New">New</a></li>
+          <li><a href="#" id="Large">Large</a></li>
+          <li><a href="#" id="Small">Small</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 id="title">Home</h2>
+      <section class="home">
+        <div class="grid-container">
+          
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; <span id="currentyear"></span> by Figuelia Ya'Sin , Antsiranana,Madagascar </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
+
