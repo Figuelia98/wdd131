@@ -193,7 +193,9 @@ figure{
 .but-container {
  display: flex;
 }
-.but-container button{
+.but-container a{
+  text-align: center;
+  text-decoration: none;
     background-color: var(--accent-color1);
     border: none;
     border-radius: 1rem;
@@ -204,7 +206,7 @@ figure{
     width: 300px;
     box-shadow: 0px 0px 1px black;
 }
-.but-container button:hover{
+.but-container a:hover{
   background-color: #000000;
   color: #FCA311;
   opacity: 0.7;
@@ -225,7 +227,7 @@ footer{
     display: grid;
     place-items: center;
     padding-top: 10px;
-    padding-bottom: 10x;
+    padding-bottom: 10px;
     box-shadow: 0px 0px 2px ;
 }  
 nav ul {

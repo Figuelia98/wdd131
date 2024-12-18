@@ -23,10 +23,10 @@
       <input type="checkbox" id="burger-toggle">
       <!-- Burger Icon -->
       <label for="burger-toggle" class="burger-container">
-       <div class="burger-line"></div>
-      <div class="burger-line"></div>
-      <div class="burger-line"></div>
-     </label>
+        <span class="burger-line"></span>
+       <span class="burger-line"></span>
+       <span class="burger-line"></span>
+       </label>
        <nav class="nav-menu">
         <ul>
             <li><a href="index.html">Home</a> </li>
@@ -58,15 +58,15 @@
             <fieldset class="age">
                 <legend>Age category of participants</legend>
                 <label for="children">
-                    <input type="checkbox" name="children" value="Children">
+                    <input type="checkbox" id="children" name="children" value="Children">
                     5-17 years old
                 </label>
                 <label for="young">
-                    <input type="checkbox" name="young" value="Young adult">
+                    <input type="checkbox" id="young" name="young" value="Young adult">
                     18-25 years old
                 </label>
                 <label for="adult">
-                    <input type="checkbox" name="adult" value="adult">
+                    <input type="checkbox" id="adult" name="adult" value="adult">
                     More than 25 years old
                 </label>
             </fieldset>
@@ -77,20 +77,20 @@
 
         <label for="name">
             Name:
-            <input type="text" name="name" placeholder="Your name" required>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
         </label>
         <label for="email">
             Email:
-            <input type="email" name="email" placeholder="Your email" required>
+            <input type="email" name="email" id="email" placeholder="Your email" required>
         </label>
         <label for="phone">
             Phone:
-            <input type="text" name="phone" placeholder="Your phone number" required>
+            <input type="text" name="phone" id="phone" placeholder="Your phone number" required>
         </label>
        </fieldset>
 
        <label for="agree">
-        <input type="checkbox" name="agree" value="yes" required>
+        <input type="checkbox" name="agree" id="agree" value="yes" required>
         I agree to accept the conditions of Mada Excursion
        </label>
 
